@@ -1,0 +1,31 @@
+# Dados pessoais das conexões: hosts, usuários, caminhos e configurações locais
+/conexões/
+/.config/
+*.local.json
+*.secret
+*.secrets
+*.credentials
+
+# Dependências instaladas
+/node_modules/
+
+# Logs e arquivos temporários
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testes e artefatos de testes locais
+/test/
+/coverage/
+/.nyc_output/
+/test-results/
+
+# Arquivos gerados pelo editor e pelo sistema operacional
+.vscode/*.log
+.idea/
+*.code-workspace

@@ -1,0 +1,21 @@
+{
+  "name": "sshfs-painel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Painel local para montar conexões SSHFS no Linux",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
